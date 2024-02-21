@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="0" time="0.002" timestamp="2024-02-15T14:20:57.604883" hostname="Opals-Air" /></testsuites>
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="3.276" timestamp="2024-02-21T10:24:35.245480" hostname="Opals-Air"><testcase classname="Test.test_Login.LoginTests" name="test_valid_login" time="3.214" /></testsuite></testsuites>
