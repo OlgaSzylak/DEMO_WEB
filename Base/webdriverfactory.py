@@ -3,6 +3,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.microsoft import IEDriverManager
 from Util.constants import TC_Constants
 from selenium import webdriver
+import time
 
 
 class WebDriverFactory:
@@ -23,4 +24,6 @@ class WebDriverFactory:
         driver.implicitly_wait(3)
         # driver.maximize_window()
         driver.get(TC_Constants['Base_URL'])
+        time.sleep(3)
+
         return driver
